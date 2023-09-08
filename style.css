@@ -1,0 +1,192 @@
+/* Estilos generales */
+body {
+  font-family: "Cantarell", sans-serif;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+/* Tamaño de fuente personalizado, VET TO GO */
+.custom-h1 {
+  font-size: 70px;
+}
+
+.custom-esqizda {
+  font-size: 10px;
+}
+
+#navbarNav {
+  font-size: 13px; /* Tamaño de fuente de 10px */
+}
+
+/* Estilos para el encabezado V2G */
+.navbar-brand {
+  padding-left: 20px; /* Añade 10px de sangría a la izquierda */
+  color: grey;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+/* Estilos para la sección de portada */
+.cover {
+  height: 400px;
+  background-image: url(https://cdn.glitch.global/48f9e32b-7865-4ea5-ae38-0786b4bb75c5/rsz_flouffy-vw2hgwgtifw-unsplash.jpg?v=1693995733406);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+}
+
+
+.container-fluid.img {
+    max-width: 100%; /* Establecer el ancho máximo al 100% */
+    height: auto;    /* Ajustar automáticamente la altura para mantener la proporción original */
+    display: block;  /* Evitar espacios en blanco no deseados debajo de las imágenes */
+    margin: 0 auto; /* Centrar horizontalmente las imágenes en su contenedor */
+}
+
+
+
+/* Estilos para los botones */
+.custom-btn-color {
+  background-color: #abedd8;
+}
+/* icono email footer*/
+.custom-btn-color1 {
+  background-color: #81e4c4;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+/* Agrega estilos para el contenedor del número de teléfono */
+.phone-container {
+  text-align: center;
+}
+
+/* Estilos para el número de teléfono */
+#phoneNumber {
+  display: none;
+  margin-top: 10px; /* Espacio entre el botón y el número de teléfono */
+  margin-left: 50px;
+}
+
+/* Estilos para las tarjetas */
+.text-bg-dark::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Color oscuro con opacidad del 30% */
+}
+
+/* Estilos generales para el texto en las tarjetas */
+.card-title {
+  font-size: 20px;
+  color: white;
+}
+
+
+
+/* Estilos específicos para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+}
+
+
+  /* Estilos generales para el párrafo */
+  p {
+    max-width: 100%; /* Ancho máximo del párrafo */
+    padding: 10px;   /* Espaciado alrededor del párrafo */
+  }
+
+  /* Estilos específicos para pantallas pequeñas (menos de 768px de ancho) */
+  @media (max-width: 768px) {
+    p {
+      max-width: 90%; /* Reducir el ancho máximo para pantallas pequeñas */
+    }
+  }
+
+
+
+
+
+
+/* Estilos para las tarjetas de la 2 section */
+.card .card-body {
+  text-align: center; /* Centra el contenido de la tarjeta horizontalmente */
+}
+
+/* Estilos para las tarjetas de la 2 section */
+.card:nth-child(1),
+.card:nth-child(2),
+.card:nth-child(3),
+.card:nth-child(4) {
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  background-color: rgba(129, 228, 196, 0.8);
+}
+
+.centered {
+  max-width: 400px; /* Establece el ancho máximo */
+  margin-left: auto; /* Centra a la izquierda */
+  margin-right: auto; /* Centra a la derecha */
+}
+
+/* Estilo para la imagen dentro de las tarjetas de la 2 section*/
+.card-image img {
+  max-width: 12%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
+  float: top; /* Hace que la imagen flote a la derecha del contenido de la tarjeta */
+  margin-left: 10px; /* Agrega un margen izquierdo para separar la imagen del texto */
+}
+
+
+/* ACORDEON FAQ */
+
+
+
+
+
+
+/* Agrega estos estilos CSS a tu archivo CSS personalizado */
+.accordion-item {
+  background-color: #137DC5; /* Cambia este valor al color deseado */
+  border-radius: 5px; /* Opcional: Agrega esquinas redondeadas */
+  margin-bottom: 10px; /* Opcional: Agrega espacio entre los elementos del acordeón */
+  padding: 0px; /* Opcional: Agrega espaciado interno */
+}
+
+
+.accordion {
+  max-width: 600px; /* Establece el ancho máximo que desees */
+  margin: 0 auto; /* Centra el acordeón horizontalmente en la página */
+  padding: 20px; /* Agrega un espacio interno alrededor del acordeón */
+  border: 1px solid #ccc; /* Agrega un borde al acordeón si lo deseas */
+  border-radius: 5px; /* Agrega esquinas redondeadas si lo deseas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra al acordeón si lo deseas */
+}
