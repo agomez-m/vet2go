@@ -175,12 +175,26 @@ a {
 
 /* Agrega estos estilos CSS a tu archivo CSS personalizado */
 .accordion-item {
-  background-color: #137DC5; /* Cambia este valor al color deseado */
+  background-color: #9ecff0 /* Cambia este valor al color deseado */
   border-radius: 5px; /* Opcional: Agrega esquinas redondeadas */
   margin-bottom: 10px; /* Opcional: Agrega espacio entre los elementos del acordeón */
   padding: 0px; /* Opcional: Agrega espaciado interno */
 }
 
+
+
+.accordion-header{
+  background-color: #d5f6eb;
+  
+}
+.accordion-button:active {
+  background-color:#abedd8; /* Reemplaza 'color-activo' con el color deseado */
+}
+
+/* Color de fondo cuando el botón no está activo (no pulsado) */
+.accordion-button:not(:active) {
+  background-color: #4b92c2; /* Reemplaza 'color-inactivo' con el color deseado */
+}
 
 .accordion {
   max-width: 600px; /* Establece el ancho máximo que desees */
@@ -189,4 +203,5 @@ a {
   border: 1px solid #ccc; /* Agrega un borde al acordeón si lo deseas */
   border-radius: 5px; /* Agrega esquinas redondeadas si lo deseas */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra al acordeón si lo deseas */
+  background-color: #abedd8;
 }
