@@ -193,7 +193,7 @@ a {
 
 /* Color de fondo cuando el botón no está activo (no pulsado) */
 .accordion-button:not(:active) {
-  background-color: #4b92c2; /* Reemplaza 'color-inactivo' con el color deseado */
+  background-color: #9ecff0; /* Reemplaza 'color-inactivo' con el color deseado */
 }
 
 .accordion {
