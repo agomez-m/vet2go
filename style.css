@@ -69,6 +69,10 @@ h5 {
   background-color: #abedd8;
 }
 
+.custom-btn-color2 {
+  background-color: #2199ea;
+}
+
 a {
   text-decoration: none;
   color:black;
@@ -175,7 +179,7 @@ a {
 
 /* Agrega estos estilos CSS a tu archivo CSS personalizado */
 .accordion-item {
-  background-color: #9ecff0 /* Cambia este valor al color deseado */
+  background-color: #9ecff0; /* Cambia este valor al color deseado */
   border-radius: 5px; /* Opcional: Agrega esquinas redondeadas */
   margin-bottom: 10px; /* Opcional: Agrega espacio entre los elementos del acordeón */
   padding: 0px; /* Opcional: Agrega espaciado interno */
